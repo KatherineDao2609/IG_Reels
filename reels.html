@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katherine Dao_Project 3A</title>
+  <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+  <link href="reelstyle.css" rel="stylesheet" type="text/css" />
+   <link href="desstyle.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+
+
+
+<body>
+  <!-- Start the code from Stack Overflow https://stackoverflow.com/questions/24293102/how-to-put-a-background-video-loop-on-a-website-html-css -->
+  <div id="iphone-video-bg">
+    <video id="video-bg" autoplay loop muted>
+      <source src=img/ARvideo.mp4 type="video/mp4">
+    </video>
+    <!-- End the code from Stack Overflow https://stackoverflow.com/questions/24293102/how-to-put-a-background-video-loop-on-a-website-html-css -->
+
+    <!-- Start of the code generated from ChatGPT to create the iPhone frame with responsive feature -->
+    <div id="notch"></div>
+    <div id="content-video-bg">
+      <!-- End of the code generated from ChatGPT to create the iPhone frame with responsive feature -->
+
+      <!-- content starts here -->
+      <div class="top-reels">
+        <div class="time-bar">
+          <img src=img/status-bar-white.svg alt="time-bar">
+          <br>
+          <img class="camera" src=img/camera.png width="21px" height="21px" alt="camera">
+        </div>
+      </div>
+      <div class="mid-reels">
+        <img class="black-gradient" src=img/black-gradient.svg alt="Black Gradient">
+        <div class="icon-bar-reels">
+          <div>
+            <input type="checkbox" />
+            <!-- <img src=img/heart-white.svg height="25px" width="23px" alt="Like"> -->
+            <span class="number">1.1k</span><br><br>
+            <img src=img/comment-white.svg height="24px" width="24px" alt="Comment"><br><span
+              class="number">135</span><br><br>
+            <img src=img/share-white.svg height="24px" width="24px" alt="Share"><br><span
+              class="number">112</span><br><br><br>
+            <img class="threedots-white" src=img/threedots-white.svg height="18px" width="18px"
+              alt="More Options"><br><br>
+            <img class="album-position" src=img/album.png height="28px" width="27px" alt="Album"><br>
+
+          </div>
+        </div>
+        <div class="text-reels">
+          <img class="profile-logo" src=img/profilelogo.png height="31px" width="31px" alt="Profile Logo"> <span
+            class="ixd-sheridan">ixd_sheridan</span> <span class="rectangle follow">Follow</span>
+          <br><br><br> 
+          <div class="main-container">
+            <p class="video-description no-style">Welcome to IxD Community at Sherid...<span id="slider" class="show-more"><b>Show more</b></span>
+            </p>
+            <div class="audio-box">
+              <img class="music-icon-position" src=img/music-icon.svg>
+              <span class="audio-text">ixd_sheridan . Original audio</span>
+            </div>
+            <div class="content-to-slide" id="content-container">
+              <div class="box" >
+                 <div class="title">
+                   <a href="reels.html"><hr class="bar"></a>
+                   <div class="icon-in-box">
+                     <img src=img/profilelogo.png width="32px" height="32px" alt="profile logo">
+                     <span class="name-position">ixd_sheridan</span>
+                     <img id="imgContrast"class="contrast-position" src=img/contrast.svg width="26px" height="24px" alt="Day/Night Mode" onclick="toggleDarkMode()">
+                     <img id="imgSize" class="size-position" src=img/size.svg width="26px" height="21px" alt="Text Size" onclick="toggleTextSize()">
+                   </div>
+                 </div>
+                 <div class="content" id="content-text">
+                   <p>Welcome to IxD Community at Sheridan College! :)
+
+                   <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br><br>
+
+                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                 </div>
+               </div>
+            </div>
+          </div>
+          <br>
+            
+          
+          </div>
+        
+        
+
+      
+        
+      </div>
+
+      <div class="bottom-reels">
+        <div class="control-bar-black">
+          <a href="index.html"><img class="home-white-position" src=img/home-white.svg width="21px" height="21px"
+              alt="Homepage"></a>
+          <img class="search-white-position" width="21px" height="21px" class="search-white-position"
+            src=img/search-white.svg alt="Search">
+          <img class="add-post-white-position" src=img/add-post-white.svg width="21px" height="21px" alt="Add Post">
+          <img class="reels-white-position" src=img/reels-white.svg width="22px" height="22px" alt="Reels">
+          <img class="user-white-position" src=img/user-white.svg width="21px" height="21px" alt="Personal">
+        </div>
+      </div>
+      
+    </div>
+
+        
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</body>
+
+</html>
